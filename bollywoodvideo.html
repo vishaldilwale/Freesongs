@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="MusicApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Freesongs.com</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/font-awesome-5.8.2.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- Main Header -->
+<header class="main-header">
+    <h1>FREE SONGS</h1>
+</header>
+
+<!-- Main Navbar -->
+<nav class="main-nav main_nav_index fixed-top position-sticky">
+    <div class="animated slideInLeft">
+        <a href="index.html">
+            <i class="fa fa-home"></i> Home</a>
+        <a href="bollywoodaudio.html">
+            <i class="fa fa-headphones"></i> Audio Songs </a>
+        <a href="bollywoodvideo.html" class="active">
+            <i class="fa fa-video"></i> Video Songs </a>
+        <a href="bollywoodmovies.html">
+            <i class="fa fa-id-card"></i> Movies</a>
+        <a href="contact.html">
+            <i class="fa fa-envelope"></i> Contact Us</a>
+    </div>
+</nav>
+
+<!-- Gallery Section -->
+<div class="container p-4">
+    <div class="row">
+        <div class="col-md-12 flex-center p-0 switch-button" style="margin: auto">
+            <a href="bollywoodvideo.html" class="w-50"><button type="button" class="btn btn-lg btn-danger bollywood_video w-100">Bollywood</button></a>
+            <a href="hollywoodvideos.html" class="w-50"><button type="button" class="btn btn-lg btn-danger hollywood_video w-100">Hollywood</button></a>
+            <a href="devotionalvideos.html" class="w-50"><button type="button" class="btn btn-lg btn-danger devotional_video w-100">Devotional</button></a>
+        </div>
+    </div>
+</div>
+<div>
+<section class="gallery-section">
+    <fieldset class="m-4" >
+        <legend id="trending" class="active">Top Trending
+            <P class=" category_btn d-inline-block">
+                <a href="#latest" class="btn btn-sm text-white categories">Latest</a>
+                <a href="#most-liked" class="btn btn-sm text-white categories">Most Liked</a>
+                <a href="#old-favourites" class="btn btn-sm text-white categories">Old Favorite</a>
+            </P>
+        </legend>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card video-card">
+                        <div class="mt-1" id="psycho-saiyaan">
+                            <video controls class="video-element" style="width:300px">
+                                <source src="Videos/video.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="video-details">
+                            <h4>Psycho Saiyaan</h4>
+                            <h6>Saaho<sub>2019</sub></h6>
+                            <a href="Videos/video.mp4" download="PsychoSaiyaan_freesongs_Dilwale"><h5 class="btn btn-success video-download w-100 h-25">Download</h5></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card video-card">
+                        <div class="mt-1">
+                            <video controls class="video-element" style="width:300px">
+                                <source src="Videos/videoc.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="video-details">
+                            <h4>Song Name</h4>
+                            <h6>Album<sub>20**</sub></h6>
+                            <a href="Videos/videoc.mp4" download="VideoExample_freesongs_Dilwale"><h5 class="btn btn-success video-download w-100 h-25">Download</h5></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card video-card">
+                        <div class="mt-1">
+                            <img src="images/video-2.gif" width="300px" height="170px" class="video-element">
+                        </div>
+                        <div class="video-details ">
+                            <h4>Song Name</h4>
+                            <h6>Album<sub>20**</sub></h6>
+                            <a href="images/video-2.gif" download="VideoExample_freesongs_Dilwale"><h5 class="btn btn-success video-download w-100 h-25">Download</h5></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card video-card">
+                            <div class="mt-1">
+                                <img src="images/video-2.gif" width="300px" height="170px" class="video-element">
+                            </div>
+                            <div class="video-details ">
+                                <h4>Song Name</h4>
+                                <h6>Album<sub>20**</sub></h6>
+                                <a href="images/video-2.gif" download="VideoExample_freesongs_Dilwale"><h5 class="btn btn-success video-download w-100 h-25">Download</h5></a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </fieldset>
+    <fieldset class="m-4" >
+        <legend id="latest" class="active">Latest
+            <P class="d-inline-block">
+                <a href="#trending" class="btn btn-sm text-white categories">Top Trending</a>
+                <a href="#most-liked" class="btn btn-sm text-white categories">Most Liked</a>
+                <a href="#old-favourites" class="btn btn-sm text-white categories">Old Favorite</a>
+            </P>
+        </legend>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card video-card">
+                        <div class="mt-1">
+                            <img src="images/video-2.gif" width="300px" height="150px" class="video-element">
+                        </div>
+                        <div class="video-details ">
+                            <h4>Song Name</h4>
+                            <h6>Album<sub>20**</sub></h6>
+                            <a href="images/video-2.gif" download="VideoExample_freesongs_Dilwale"><h5 class="btn btn-success video-download w-100 h-25">Download</h5></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card video-card">
+                        <div class="mt-1">
+                            <img src="images/video-2.gif" width="300px" height="150px" class="video-element">
+                        </div>
+                        <div class="video-details ">
+                            <h4>Song Name</h4>
+                            <h6>Album<sub>20**</sub></h6>
+                            <a href="images/video-2.gif" download="VideoExample_freesongs_Dilwale"><h5 class="btn btn-success video-download w-100 h-25">Download</h5></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card video-card">
+                        <div class="mt-1">
+                            <img src="images/video-2.gif" width="300px" height="150px" class="video-element">
+                        </div>
+                        <div class="video-details ">
+                            <h4>Song Name</h4>
+                            <h6>Album<sub>20**</sub></h6>
+                            <a href="images/video-2.gif" download="VideoExample_freesongs_Dilwale"><h5 class="btn btn-success video-download w-100 h-25">Download</h5></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card video-card">
+                        <div class="mt-1">
+                            <img src="images/video-2.gif" width="300px" height="150px" class="video-element">
+                        </div>
+                        <div class="video-details ">
+                            <h4>Song Name</h4>
+                            <h6>Album<sub>20**</sub></h6>
+                            <a href="images/video-2.gif" download="VideoExample_freesongs_Dilwale"><h5 class="btn btn-success video-download w-100 h-25">Download</h5></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </fieldset>
+    <fieldset class="m-4" >
+        <legend id="most-liked" class="active">Most Liked
+            <P class="d-inline-block">
+                <a href="#trending" class="btn btn-sm text-white categories">Top Trending</a>
+                <a href="#latest" class="btn btn-sm text-white categories">Latest</a>
+                <a href="#old-favourites" class="btn btn-sm text-white categories">Old Favorite</a>
+            </P>
+        </legend>
+        <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="card video-card">
+                    <div class="mt-1">
+                        <img src="images/video-2.gif" width="300px" height="150px" class="video-element">
+                    </div>
+                    <div class="video-details ">
+                        <h4>Song Name</h4>
+                        <h6>Album<sub>20**</sub></h6>
+                        <a href="images/video-2.gif" download="VideoExample_freesongs_Dilwale"><h5 class="btn btn-success video-download w-100 h-25">Download</h5></a>
+                    </div>
+                </div>
+              </div>
+                <div class="col-md-3">
+                <div class="card video-card">
+                    <div class="mt-1">
+                        <img src="images/video-2.gif" width="300px" height="150px" class="video-element">
+                    </div>
+                    <div class="video-details ">
+                        <h4>Song Name</h4>
+                        <h6>Album<sub>20**</sub></h6>
+                        <a href="images/video-2.gif" download="VideoExample_freesongs_Dilwale"><h5 class="btn btn-success video-download w-100 h-25">Download</h5></a>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-3">
+                <div class="card video-card">
+                    <div class="mt-1">
+                        <img src="images/video-2.gif" width="300px" height="150px" class="video-element">
+                    </div>
+                    <div class="video-details ">
+                        <h4>Song Name</h4>
+                        <h6>Album<sub>20**</sub></h6>
+                        <a href="images/video-2.gif" download="VideoExample_freesongs_Dilwale"><h5 class="btn btn-success video-download w-100 h-25">Download</h5></a>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-3">
+                <div class="card video-card">
+                    <div class="mt-1">
+                        <img src="images/video-2.gif" width="300px" height="150px" class="video-element">
+                    </div>
+                    <div class="video-details ">
+                        <h4>Song Name</h4>
+                        <h6>Album<sub>20**</sub></h6>
+                        <a href="images/video-2.gif" download="VideoExample_freesongs_Dilwale"><h5 class="btn btn-success video-download w-100 h-25">Download</h5></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </fieldset>
+    <fieldset class="m-4" >
+        <legend id="old-favourites" class="active">Old Favourites
+            <P class="d-inline-block">
+                <a href="#trending" class="btn btn-sm text-white categories">Top Trending</a>
+                <a href="#latest" class="btn btn-sm text-white categories">Latest</a>
+                <a href="#most-liked" class="btn btn-sm text-white categories">Most Liked</a>
+            </P>
+        </legend>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card video-card">
+                        <div class="mt-1">
+                            <img src="images/video-2.gif" width="300px" height="150px" class="video-element">
+                        </div>
+                        <div class="video-details ">
+                            <h4>Song Name</h4>
+                            <h6>Album<sub>1950</sub></h6>
+                            <a href="images/video-2.gif" download="VideoExample_freesongs_Dilwale"><h5 class="btn btn-success video-download w-100 h-25">Download</h5></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card video-card">
+                        <div class="mt-1">
+                            <img src="images/video-2.gif" width="300px" height="150px" class="video-element">
+                        </div>
+                        <div class="video-details ">
+                            <h4>Song Name</h4>
+                            <h6>Album<sub>18**</sub></h6>
+                            <a href="images/video-2.gif" download="VideoExample_freesongs_Dilwale"><h5 class="btn btn-success video-download w-100 h-25">Download</h5></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card video-card">
+                        <div class="mt-1">
+                            <img src="images/video-2.gif" width="300px" height="150px" class="video-element">
+                        </div>
+                        <div class="video-details ">
+                            <h4>Song Name</h4>
+                            <h6>Album<sub>19**</sub></h6>
+                            <a href="images/video-2.gif" download="VideoExample_freesongs_Dilwale"><h5 class="btn btn-success video-download w-100 h-25">Download</h5></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card video-card">
+                        <div class="mt-1">
+                            <img src="images/video-2.gif" width="300px" height="150px" class="video-element">
+                        </div>
+                        <div class="video-details ">
+                            <h4>Song Name</h4>
+                            <h6>Album<sub>19**</sub></h6>
+                            <a href="images/video-2.gif" download="VideoExample_freesongs_Dilwale"><h5 class="btn btn-success video-download w-100 h-25">Download</h5></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </fieldset>
+</section>
+
+<!-- Main Footer -->
+    <footer class="main-footer pt-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Copyright &copy; 2019 , Freesongs.com</h5>
+                    <p>All Rights Reserved</p>
+                </div>
+                <div class="col-md-4">
+                    <p>Developed & Maintained by</p>
+                    <h5><a href="http://www.instagram.com/vishal__dilwale" target="_blank">
+                        <i class="fa fa-arrow-circle-right"></i> Vishal Dilwale</a></h5>
+                </div>
+                <div class="col-md-4">
+                    <h4>Follow Me On</h4>
+                    <ul class="list-unstyled list-inline text-center">
+                        <li class="list-inline-item">
+                            <a href="http://www.instagram.com/vishal__dilwale" target="_blank"
+                               class="btn-floating btn-tw mx-1">
+                                <i class="fab fa-instagram"> </i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="http://wa.me/919518387602?text=Hello%20I'm%20VISHAL%20DILWALE%20Feel%20Free%20to%20Text%20Me" target="_blank" class="btn-floating btn-gplus mx-1">
+                                <i class="fab fa-whatsapp"> </i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="http://www.linkedin.com/in/vishal-dilwale-0b767711b" target="_blank"
+                               class="btn-floating btn-li mx-1">
+                                <i class="fab fa-linkedin-in"> </i>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</html>
